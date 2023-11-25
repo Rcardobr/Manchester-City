@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Manchester_City.props" />
+</Project>
