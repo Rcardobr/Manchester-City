@@ -1,0 +1,34 @@
+.navbar{
+    background-color: rgb(108, 171, 221);
+}
+
+
+form button{
+    margin: -8px;
+}
+
+footer{
+    background-color: rgb(28, 44, 91);
+    margin-top: 115px;
+    
+}
+
+footer img{
+    margin: 50px;
+    height: 250px;   
+}
+
+
+#contInicio{
+    background-color: rgb(108, 171, 221);
+    position: relative;
+}
+
+#haalandInicio{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -150px;
+    position: relative;
+}

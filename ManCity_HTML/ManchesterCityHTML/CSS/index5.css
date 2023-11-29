@@ -1,0 +1,33 @@
+.navbar{
+    background-color: rgb(108, 171, 221);
+}
+
+
+form button{
+    margin: -8px;
+}
+
+.container-flex{
+        background-color: rgb(108, 171, 221);
+        margin-bottom: -16px;
+}
+
+footer{
+    background-color: rgb(28, 44, 91);
+}
+
+footer img{
+    margin: 50px;
+    height: 250px;   
+}
+
+h1{
+    color: rgb(108, 171, 221);
+    margin-top: 300px;
+}
+
+.SeccionPatrocinadores li{
+    list-style-type: none;
+    display: inline;
+}
+

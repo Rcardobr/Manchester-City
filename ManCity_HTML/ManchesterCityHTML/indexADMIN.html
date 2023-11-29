@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester City</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/index7.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fw-bold">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index1.html"><img class="LogoManCity" src="./IMG/LogoManCity.png" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Equipo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index2.html">Plantilla</a></li>
+                            <li><a class="dropdown-item" href="index3.html">Fotos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="index4.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index5.html">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index6.html">Noticias</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <nav class="navbar navbar-light">
+                            <a href="./indexADMIN.html">
+                                <form class="container-fluid justify-content-start">
+                                    <button class="btn btn-danger" type="button">ADMIN</button>
+                                </form>
+                            </a>
+                        </nav>
+                    </li>
+                    <li class="nav-item">
+                        <nav class="navbar navbar-light">
+                            <form class="container-fluid justify-content-start">
+                                <a href="./index7.html">
+                                    <button class="btn btn-dark" type="button">Iniciar sesion</button>
+                                </a>
+                            </form>
+                        </nav>
+                    </li>
+                    <li class="nav-item">
+                        <nav class="navbar navbar-light">
+                            <a href="./index8.html">
+                                <form class="container-fluid justify-content-start">
+                                    <button class="btn btn-primary" type="button">Registrarse</button>
+                                </form>
+                            </a>
+                        </nav>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Navbar admin-->
+    <nav class="navbar sticky-top navbar-expand-lg fw-bold bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index1.html"><img class="LogoManCity" src="./IMG/LogoManCity.png" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index6.html">PANEL ADMIN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Equipo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="indexADMIN.html">Plantilla</a></li>
+                            <li><a class="dropdown-item" href="indexADMIN1.html">Fotos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="indexADMIN2.html">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="indexADMIN3.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="indexADMIN4.html">Login ADMIN</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--CRUD JUGADORES-->
+    <div class="container-flex m-5 bg-secondary">
+        <div class="container-flex m-3">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-light">Jugadores</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h3 class="text-center bg-danger">Porteros</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-success">Insertar jugador</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center bg-light">Nombre Jugador</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Nombre Admin</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Fecha Modificacion</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Editar/Eliminar/ver</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h3 class="text-center bg-danger">Defensas</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-success">Insertar jugador</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center bg-light">Nombre Jugador</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Nombre Admin</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Fecha Modificacion</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Editar/Eliminar/ver</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h3 class="text-center bg-danger">Centrocampistas</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-success">Insertar jugador</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center bg-light">Nombre Jugador</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Nombre Admin</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Fecha Modificacion</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Editar/Eliminar/ver</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h3 class="text-center bg-danger">Delanteros</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-success">Insertar jugador</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center bg-light">Nombre Jugador</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Nombre Admin</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Fecha Modificacion</h3>
+            </div>
+            <div class="col-2">
+                <h3 class="text-center bg-light">Editar/Eliminar/ver</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
