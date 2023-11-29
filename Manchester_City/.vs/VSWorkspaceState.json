@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Manchester_City",
+    "\\Manchester_City\\bin",
+    "\\Manchester_City\\bin\\Debug",
+    "\\Manchester_City\\bin\\Debug\\net6.0",
+    "\\Manchester_City\\bin\\Release",
+    "\\Manchester_City\\bin\\Release\\net6.0",
+    "\\Manchester_City\\Controllers",
+    "\\Manchester_City\\obj",
+    "\\Manchester_City\\obj\\Debug",
+    "\\Manchester_City\\obj\\Release"
+  ],
+  "SelectedNode": "\\Manchester_City\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
